@@ -1,0 +1,17 @@
+.title{
+  text-align: center;
+}
+.button{
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  transition-property: width,border-radius;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+.button:hover{
+  text-align: center;
+  width: 100%;
+  border-radius: 3%;
+}
